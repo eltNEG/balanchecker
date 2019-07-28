@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d21d9ecb983b4a9e78606ea79086798d",
+    "revision": "95577c4cf141fd61268cd69854229484",
     "url": "/balanchecker/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/balanchecker/static/css/2.773c9678.chunk.css"
   },
   {
-    "revision": "80f5d290b61d9cdb354e",
+    "revision": "da95c0431271cd56b3cd",
     "url": "/balanchecker/static/css/main.b84256dd.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/balanchecker/static/js/2.57b33c7c.chunk.js"
   },
   {
-    "revision": "80f5d290b61d9cdb354e",
-    "url": "/balanchecker/static/js/main.f1f31bf6.chunk.js"
+    "revision": "da95c0431271cd56b3cd",
+    "url": "/balanchecker/static/js/main.67fe42cf.chunk.js"
   },
   {
     "revision": "eea135b6ca435fec2335",
