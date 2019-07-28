@@ -1,12 +1,14 @@
 import React, { useState } from 'react';
 import { TextArea, Button, Input, Form } from 'semantic-ui-react';
+import { getBalances } from './utils/funcs';
 import 'semantic-ui-css/semantic.min.css';
 import './assets/style.css';
+
 
 const initialState = {
   tokenAddress: '',
   addresses: '',
-  result: ''
+  result: {}
 };
 function App() {
   const [state, setState] = useState(initialState);
@@ -22,10 +24,12 @@ function App() {
       <header className="App-header">Balanchecker</header>
       <main>
         <Form autoComplete="off">
-        <Input onChange={handleChange} name="tokenAddress" value={tokenAddress} placeholder="Token address" />
+        <Input autoComplete="off" onChange={handleChange} name="tokenAddress" value={tokenAddress} placeholder="Token address" />
         <TextArea onChange={handleChange} name="addresses" value={addresses} placeholder="Paste your ethereum addresses here" />
-        <Button>Check balance</Button>
-        <TextArea value={result} onChange={handleChange} placeholder="Results" />
+        <Button onClick={() => getBalances(tokenAddress, addresses).then((result) => {
+          setState(prevState => ({...prevState, result}))
+        })}>Check balance</Button>
+        <TextArea value={JSON.stringify(result)} onChange={handleChange} placeholder="Results" />
         <Button>Download CSV</Button>
         </Form>
         
