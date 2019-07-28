@@ -2,7 +2,7 @@ import web3, { tokenContract } from './setup';
 
 export const getBalances = async (tokenAddress, addresses) => {
   let getBalance;
-  const addressList = [...new Set(addresses.split(' '))];
+  const addressList = [...new Set(addresses.split(/\s+/))];
   if (tokenAddress) {
     getBalance = addr =>
       tokenContract(tokenAddress)
