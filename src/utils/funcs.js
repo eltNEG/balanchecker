@@ -23,6 +23,5 @@ export const getBalances = async(tokenAddress, addresses) => {
   }, {})
 };
 
-// web3.eth.net.getNetworkType().then(console.log).catch(err => console.log('err =>', err));
 
 
