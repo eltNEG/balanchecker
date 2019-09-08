@@ -1,18 +1,15 @@
 {
   "files": {
-    "main.css": "/balanchecker/static/css/main.b84256dd.chunk.css",
-    "main.js": "/balanchecker/static/js/main.67fe42cf.chunk.js",
-    "main.js.map": "/balanchecker/static/js/main.67fe42cf.chunk.js.map",
+    "main.css": "/balanchecker/static/css/main.c8604255.chunk.css",
+    "main.js": "/balanchecker/static/js/main.10130cf3.chunk.js",
+    "main.js.map": "/balanchecker/static/js/main.10130cf3.chunk.js.map",
     "runtime~main.js": "/balanchecker/static/js/runtime~main.b3c149fe.js",
     "runtime~main.js.map": "/balanchecker/static/js/runtime~main.b3c149fe.js.map",
-    "static/css/2.773c9678.chunk.css": "/balanchecker/static/css/2.773c9678.chunk.css",
-    "static/js/2.57b33c7c.chunk.js": "/balanchecker/static/js/2.57b33c7c.chunk.js",
-    "static/js/2.57b33c7c.chunk.js.map": "/balanchecker/static/js/2.57b33c7c.chunk.js.map",
+    "static/js/2.94622379.chunk.js": "/balanchecker/static/js/2.94622379.chunk.js",
+    "static/js/2.94622379.chunk.js.map": "/balanchecker/static/js/2.94622379.chunk.js.map",
     "index.html": "/balanchecker/index.html",
-    "precache-manifest.54c01ff993aecf9d340b1e1f018668a9.js": "/balanchecker/precache-manifest.54c01ff993aecf9d340b1e1f018668a9.js",
+    "precache-manifest.62c0cb1e58bd49c6aaa4126b2f764885.js": "/balanchecker/precache-manifest.62c0cb1e58bd49c6aaa4126b2f764885.js",
     "service-worker.js": "/balanchecker/service-worker.js",
-    "static/css/2.773c9678.chunk.css.map": "/balanchecker/static/css/2.773c9678.chunk.css.map",
-    "static/css/main.b84256dd.chunk.css.map": "/balanchecker/static/css/main.b84256dd.chunk.css.map",
-    "static/media/semantic.min.css": "/balanchecker/static/media/outline-icons.ef60a4f6.woff"
+    "static/css/main.c8604255.chunk.css.map": "/balanchecker/static/css/main.c8604255.chunk.css.map"
   }
 }
