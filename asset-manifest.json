@@ -1,15 +1,11 @@
 {
   "files": {
-    "main.css": "/balanchecker/static/css/main.c8604255.chunk.css",
-    "main.js": "/balanchecker/static/js/main.10130cf3.chunk.js",
-    "main.js.map": "/balanchecker/static/js/main.10130cf3.chunk.js.map",
+    "main.css": "/balanchecker/static/css/main.b31d88d8.chunk.css",
+    "main.js": "/balanchecker/static/js/main.3f0e7497.chunk.js",
     "runtime~main.js": "/balanchecker/static/js/runtime~main.b3c149fe.js",
-    "runtime~main.js.map": "/balanchecker/static/js/runtime~main.b3c149fe.js.map",
     "static/js/2.94622379.chunk.js": "/balanchecker/static/js/2.94622379.chunk.js",
-    "static/js/2.94622379.chunk.js.map": "/balanchecker/static/js/2.94622379.chunk.js.map",
     "index.html": "/balanchecker/index.html",
-    "precache-manifest.62c0cb1e58bd49c6aaa4126b2f764885.js": "/balanchecker/precache-manifest.62c0cb1e58bd49c6aaa4126b2f764885.js",
-    "service-worker.js": "/balanchecker/service-worker.js",
-    "static/css/main.c8604255.chunk.css.map": "/balanchecker/static/css/main.c8604255.chunk.css.map"
+    "precache-manifest.dff1806ff84340f9f2363699cdbf7d36.js": "/balanchecker/precache-manifest.dff1806ff84340f9f2363699cdbf7d36.js",
+    "service-worker.js": "/balanchecker/service-worker.js"
   }
 }
