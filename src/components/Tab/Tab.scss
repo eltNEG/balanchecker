@@ -1,0 +1,55 @@
+@import '../../assets/constants';
+
+.tab {
+  width: 50%;
+  height: 3.8rem;
+  border: 2px solid $primary;
+  border-radius: 3px;
+  padding: 0;
+  background-color: $secondary;
+  color: $primary;
+  outline: none;
+  opacity: 0.65;
+  font-size: 2rem;
+  transition: 0.7s ease-in-out;
+  font-weight: 600;
+}
+
+.tab:hover {
+  opacity: 0.85;
+}
+
+.tab__left.tab__active {
+  border-radius: 10px 50% 0% 0;
+  border-bottom: none;
+  border-right: none;
+  opacity: 1;
+  font-weight: 800;
+}
+
+.tab__right.tab__not-active {
+  border-radius: 0 0 10px 50%;
+  border-left: none;
+  border-top: none;
+}
+
+.tab__left.tab__not-active {
+  border-radius: 0 0% 50% 10px;
+  border-top: none;
+  border-right: none;
+}
+
+.tab__right.tab__active {
+  border-radius: 50% 10px 0 0%;
+  border-left: none;
+  border-bottom: none;
+  opacity: 1;
+  font-weight: 800;
+}
+
+@media only screen and (max-width: 769px) {
+  .tab {
+    font-size: 1.5rem;
+    height: 3rem;
+  }
+}

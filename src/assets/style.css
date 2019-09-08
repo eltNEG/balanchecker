@@ -1,4 +1,7 @@
 body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
   margin: 0px;
   padding: 0.1px;
   background-size: cover; /* <------ */
@@ -9,4 +12,22 @@ body {
   width: 100%;
   max-width: 100vw;
   font-size: var(--font-size);
+  background-color: #e9e9de;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 14px;
+}
+body, html {
+  height: 100%;
+}
+
+html {
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
 }

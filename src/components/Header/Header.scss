@@ -1,0 +1,9 @@
+.header {
+  text-align: center;
+}
+
+@media only screen and (max-width: 769px) {
+  .header {
+    margin: 1rem;
+  }
+}
