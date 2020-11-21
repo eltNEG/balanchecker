@@ -1,11 +1,16 @@
 {
   "files": {
-    "main.css": "/balanchecker/static/css/main.b31d88d8.chunk.css",
-    "main.js": "/balanchecker/static/js/main.3f0e7497.chunk.js",
-    "runtime~main.js": "/balanchecker/static/js/runtime~main.b3c149fe.js",
-    "static/js/2.94622379.chunk.js": "/balanchecker/static/js/2.94622379.chunk.js",
+    "main.css": "/balanchecker/static/css/main.4540e105.chunk.css",
+    "main.js": "/balanchecker/static/js/main.7c79b227.chunk.js",
+    "runtime-main.js": "/balanchecker/static/js/runtime-main.e4971863.js",
+    "static/js/2.0659297b.chunk.js": "/balanchecker/static/js/2.0659297b.chunk.js",
     "index.html": "/balanchecker/index.html",
-    "precache-manifest.dff1806ff84340f9f2363699cdbf7d36.js": "/balanchecker/precache-manifest.dff1806ff84340f9f2363699cdbf7d36.js",
-    "service-worker.js": "/balanchecker/service-worker.js"
-  }
+    "static/js/2.0659297b.chunk.js.LICENSE.txt": "/balanchecker/static/js/2.0659297b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e4971863.js",
+    "static/js/2.0659297b.chunk.js",
+    "static/css/main.4540e105.chunk.css",
+    "static/js/main.7c79b227.chunk.js"
+  ]
 }
