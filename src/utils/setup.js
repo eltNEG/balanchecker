@@ -1,11 +1,15 @@
-import Web3 from 'web3';
+import {ethers, Contract} from 'ethers'
 import TOKEN_ABI from './contract';
+import ADDR_BAl_ABI from './addrBalContract';
 
-const web3 = new Web3(
-  'https://mainnet.infura.io/v3/6cae396f06e84c3abc9ddbdf0bbf084f'
+export const provider = new ethers.providers.JsonRpcProvider(
+  "https://mainnet.infura.io/v3/b423eaa8379d4c0aa17c1d85dd24cf24"
 );
 
 export const tokenContract = tokenAddress =>
-  new web3.eth.Contract(TOKEN_ABI, tokenAddress);
+  new Contract(tokenAddress, TOKEN_ABI);
 
-export default web3;
+export const addrBalContract = () =>
+  new Contract("0x5144834afcc082e02996074CE0136c0682713230", ADDR_BAl_ABI, provider);
+
+export default ethers;

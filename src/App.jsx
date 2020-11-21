@@ -52,7 +52,7 @@ function App() {
         <Tab handleClick={coin => setCoin(coin)} />
         <form className="form" autoComplete="offthis" onSubmit={handleSubmit}>
           <input type="hidden" value="prayer" />
-          <label for="addr">Token Address</label>
+          <label htmlFor="addr">Token Address</label>
           <input
             id="addr"
             className={use}
@@ -67,7 +67,7 @@ function App() {
             }
             placeholder="Token address"
           />
-          <label for="addresses">Ethereum Addresses</label>
+          <label htmlFor="addresses">Ethereum Addresses</label>
           <textarea
             id="addresses"
             onChange={handleChange}
@@ -76,7 +76,7 @@ function App() {
             placeholder="Paste your ethereum addresses here"
           />
           <button type="submit">Check balance</button>
-          <label for="result">Result</label>
+          <label htmlFor="result">Result</label>
           <textarea
             id="result"
             value={JSON.stringify(result)}
